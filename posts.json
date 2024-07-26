@@ -1,0 +1,14 @@
+{
+    "posts": [
+        {
+            "title": "first test",
+            "excerpt": "first test",
+            "content": "content"
+        },
+        {
+            "title": "Orzing",
+            "excerpt": "orz",
+            "content": "content"
+        }
+    ]
+}
