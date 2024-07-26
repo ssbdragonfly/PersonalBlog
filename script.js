@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="card-body">
                             <h3 class="card-title">${post.title}</h3>
                             <p class="card-text">${post.excerpt}</p>
+                            <p class="blog-date">${post.date}</p>
                         </div>
                     </div>
                 `;
@@ -35,5 +36,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
                 postsDiv.appendChild(postElement);
             });
+        })
+        .catch(error => console.error('Error fetching the blog posts:', error));
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
         });
+    });
 });

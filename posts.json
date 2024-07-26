@@ -1,14 +1,10 @@
 {
-    "posts": [
-        {
-            "title": "first test",
-            "excerpt": "first test",
-            "content": "content"
-        },
-        {
-            "title": "Orzing",
-            "excerpt": "orz",
-            "content": "content"
-        }
-    ]
+  "posts": [
+    {
+      "title": "Recap of a Grindy, Interesting Week",
+      "date": "2024-07-25",
+      "excerpt": "A recap of my first week at Headstarter’s Software Engineering Fellowship and my week, including problem-solving, meeting industry leaders, and working on exciting projects.",
+      "content": "<p>This is the start of my hopefully weekly blog. It's been an interesting  week it’s been at HeadStarter’s Software Engineering Fellowship! From tackling intriguing problems to meeting some phenomenal people, this first week has been an pretty cool!</p><p><strong>Solving the ID Badge Problem</strong></p><p>One thing I did at Headstarter's SWE Fellowship headstarter's AI interview. Here’s the problem statement: [redacted for now because not sure if its allowed]. I enjoyed the problem-solving aspect and explaining my approach on the call.</p><p><strong>Connecting with Industry Leaders</strong></p><p>I also had the chance to meet some amazing speakers and industry leaders:</p><ul><li><strong>Nabeel Alamgir</strong>, CEO of LunchBox, who raised $100M in VC funding.</li><li><strong>Logan Havern</strong>, CEO of DataLogz, who raised $12M.</li><li><strong>Dustin Beadle</strong>, Director at Lattice and former Director at AMD.</li><li><strong>Shariar Kabir</strong>, CEO of Ruby YC 23 and former Salesforce employee.</li><li><strong>Miguel Acero</strong>, CTO of Ruby YC 23 and former Google engineer.</li><li><strong>Jack O’Brien</strong>, former Google software engineer and tech lead.</li><li><strong>Mofi</strong>, a Google Gemini engineer.</li></ul><p>Their insights were invaluable and inspiring.</p><p><strong>My Personal Website</strong></p><p>I also worked on a personal website <a href=\"https://personal-site-psi-umber.vercel.app/\">here</a>. It was a great way to compile my projects and experiment with UI/UX design. The typing animation feature I added was a fun touch and I’m glad to see it featured on this new website as well.</p><p><strong>Challenges and Learnings</strong></p><p>This week wasn’t without its challenges. My machine learning research hit a block in the replication study. I faced a <code>Numpy</code> attribute error due to version conflicts between <code>pyentropy</code> and <code>scikit-learn</code>. Oddly enough, the issue was resolved by downgrading to <code>numpy 1.24.4</code>, even though it shouldn’t have fixed it. Additionally, I struggled with missing code and had hands-on experience with code cleaning, signal preprocessing, and feature engineering. Understanding the nuances of missing values and advanced feature extraction methods has been both challenging and rewarding.</p><p><strong>Other Activities</strong></p><p>Aside from technical work, I also spent some time on HackTJ, the high school hackathon I’m part of organizing. I worked on building a curriculum, brainstorming project ideas, talked to interesting founders and tech leaders in 1:1 chats, and even started a private project called AEye from a non-techy standpoint. I’ve now hit the limit for Google accounts on my phone number, which means I'm on the max emails I can use to process data efficiently and code on Google Colab for extended periods(shoutout to my mldummy accounts!).</p><p>Overall, it’s been a jouney of learning, networking, and problem-solving this week. I’m excited for what’s next and look forward to diving deeper into my projects and research.</p>"
+    }
+  ]
 }
